@@ -1,4 +1,4 @@
-test
+Test Project
 ====
 
-Test
+Test of Git
