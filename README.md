@@ -58,6 +58,7 @@ e.g. c:\Windows\System32\drivers\etc\hosts
 5. Open
 http://yoursite.local
 and enshure ZF2 is working
+![Image](https://github.com/avogelba/test/blob/master/ZF2_skeleton.jpg?raw=true)
 
 6. add following to6
 config\application.config.php
@@ -73,7 +74,7 @@ return array(
 7. Open
 http://yoursite.local/users
 and hope User module works
-
+![Image](https://github.com/avogelba/test/blob/master/users.jpg?raw=true)
 
 ###Note
 Da habe ich doch gralatt englisch getippt bei Installation
