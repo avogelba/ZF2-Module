@@ -14,6 +14,7 @@ Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 0.0.1
 
 > Achtung:
+
 > Early beta
 
 ### Installation
@@ -26,7 +27,10 @@ $ composer update
 .....
 
 > Es kommen ein paar Markdown Tests um rauszufinde wie das Funktioniert:
+
 ## Mardown Tests
+
+[Visit GitHub!](www.github.com)
 
 ### Footnotes
 
