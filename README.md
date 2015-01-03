@@ -22,6 +22,29 @@ Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 $ composer update
 ```
 
+
+.....
+
+> Es kommen ein paar Markdown Tests um rauszufinde wie das Funktioniert:
+## Mardown Tests
+
+### Footnotes
+
+You can create footnotes like this[^footnote].
+
+  [^footnote]: Here is the *text* of the **footnote**.
+  
+### MathJax
+
+You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
+
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+
 ### UML diagrams
 
 You can also render sequence diagrams like this:
@@ -47,6 +70,21 @@ cond(no)->op
 
 ```
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+```
+
+```javascript
+$(function(){
+  $('div').html('I am a div.');
+});
+```
+
+```php
+public function registerAction()
+    {
+        $view = new ViewModel();
+        $view->setTemplate('users/index/new-user');
+        return $view;
+    }
 ```
 
 
