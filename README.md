@@ -10,7 +10,7 @@ Bisher gibt es im Controoler nur folgende Aktionen:
 
 Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 
-### Version
+### <i class="icon-pencil"></i> Version
 0.0.1
 
 > Achtung:
