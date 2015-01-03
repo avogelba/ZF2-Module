@@ -1,4 +1,4 @@
-<img src="http://framework.zend.com/images/head-bottom-picture.png"
+﻿<img src="http://framework.zend.com/images/head-bottom-picture.png"
  alt="ZF2 Logo 1" title="ZF2 User Module" align="right" />
 
 
@@ -26,15 +26,62 @@ Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 
 # Installation
 
-```sh
-$ composer update
+1. Create a ZF2 Skeleton Application
+e.g. with Netbeans
+
+2. create VHOST in APache
+```
+<VirtualHost zf2.local:80>
+	ServerName zf2.local
+	DocumentRoot "c:/My Web Sites/zf2.local/public"
+    	ErrorLog "logs/zf2.local.log"
+    	CustomLog "logs/zf2.local.log" common
+	SetEnv APPLICATION_ENV "development"
+	<Directory "c:/My Web Sites/zf2.local/public">
+		#DirectoryIndex index.php
+		AllowOverride All
+		#Order allow,deny
+		#Allow from all
+	    	Require all granted
+	</Directory>
+</VirtualHost>
 ```
 
+3. add virtual address to hosts
+e.g. c:\Windows\System32\drivers\etc\hosts
+```
+127.0.0.1					zf2.local
+```
+
+4. Restart apache
+
+5. Open
+http://yoursite.local
+and enshure ZF2 is working
+
+6. add following to6
+config\application.config.php
+```php
+<?php
+return array(
+ ...
+ //other modules 
+ 'Users',
+), 
+```
+
+7. Open
+http://yoursite.local/users
+and hope User module works
+
+
+###Note
+Da habe ich doch gralatt englisch getippt bei Installation
+
+##ToDo
+
+Forms generieren ()
 ___
-
-***
-
----
 
 
 ## ---- Tests -----
