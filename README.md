@@ -30,10 +30,12 @@ Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 $ composer update
 
 ___
+***
+---
+
 
 ## ---- Tests -----
 
-.....
 
 > Es kommen ein paar Markdown Tests um rauszufinde wie das Funktioniert:
 
