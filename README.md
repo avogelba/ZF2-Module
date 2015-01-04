@@ -26,6 +26,8 @@ Von [Andreas Vogelbacher] für ein Semesterprojekt in der [ABB-TS] [1]:
 
 # Installation
 
+(siehe auch https://github.com/avogelba/test2 für Application Modul)
+
 1. Create a ZF2 Skeleton Application
 e.g. with Netbeans
 
